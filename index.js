@@ -14,9 +14,9 @@ connection.connect((err) => {
     }
 });
 app.post ("/poucavius/gaulois",(req,res)=>{
-    const {name, age,tall,hair_color,sex,pilosity,armed,localisation,stature,status}=req.body
-    connection.query("INSERT INTO gaulois (name, age,tall,hair_color,sex,pilosity,armed,localisation,stature,status) VALUES(?,?,?,?,?,?,?,?,?,?)",
-        [name, age,tall,hair_color,sex,pilosity,armed,localisation,stature,status],(err,result)=>{
+    const {name, age,imgurl,tall,hair_color,sex,pilosity,skin_color,armed,localisation,stature,status}=req.body
+    connection.query("INSERT INTO gaulois (name, age,imgurl,tall,hair_color,sex,pilosity,skin_color,armed,localisation,stature,status) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)",
+        [name, age,imgurl,tall,hair_color,sex,pilosity,skin_color,armed,localisation,stature,status],(err,result)=>{
         if (err){
             console.log(err);
             res.status(500).send("Error saving Gaulois !")
