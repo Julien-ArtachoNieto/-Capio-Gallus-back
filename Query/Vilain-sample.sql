@@ -1,0 +1,6 @@
+INSERT INTO gaulois (`name`,`age`,`imgurl`,`tall`,`hair_color`,`sex`,`pilosity`,`skin_color`,`armed`,`localisation`,`stature`,`status`)VALUES (
+'Romanus Lachus',30,"https://storage.googleapis.com/quest_editor_uploads/7zpz2rnexfGZShq7uNN8huAXaaafnDco.png",'Insignifiant','Brun','Emascule','Touffe','Blanc','Oui','Dans la maison close La femme a barbe','Biscottus','');
+INSERT INTO gaulois (`name`,`age`,`imgurl`,`tall`,`hair_color`,`sex`,`pilosity`,`skin_color`,`armed`,`localisation`,`stature`,`status`)VALUES (
+'Gaulix',50,"https://www.voyageurs-du-temps.fr/images/sites/expos%20gaulois/guerriers-gaulois%20(2).jpg",'GrandGaillard','Gris','Homme','Trop','Blanc','Oui','Dans le bar Le bon tonneaux ','BienPortant','');
+INSERT INTO gaulois (`name`,`age`,`imgurl`,`tall`,`hair_color`,`sex`,`pilosity`,`skin_color`,`armed`,`localisation`,`stature`,`status`)VALUES (
+'Moutachix',25,"https://grossiste-fete.gumlet.io/wp-content/uploads/2019/06/01372-1.jpg",'GrandGaillard','Blond','Homme','Trop','Blanc','Non','Endormi derrière un menhir en train de cuvé','BienPortant','');
