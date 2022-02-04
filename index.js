@@ -1,9 +1,10 @@
 const express =require('express');
 const connection = require("./db-config");
+const cors =require('cors')
 const app =express();
 
 const port = process.env.PORT ?? 3100;
-
+app.use(cors())
 app.use(express.json());
 
 connection.connect((err) => {
